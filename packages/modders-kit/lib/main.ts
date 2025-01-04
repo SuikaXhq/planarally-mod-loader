@@ -1,5 +1,9 @@
 import { type Component, type DeepReadonly, type UnwrapNestedRefs } from "vue";
 
+import { Tool } from "@planarally/client/src/game/tools/tool";
+
+export { Tool };
+
 export interface Tracker {
     uuid: string;
     visible: boolean;
