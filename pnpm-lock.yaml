@@ -6,7 +6,14 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      '@tsconfig/node18':
+        specifier: ^18.2.0
+        version: 18.2.2
+      typescript:
+        specifier: ^5.1.6
+        version: 5.2.2
 
   packages/easier-aura:
     dependencies:

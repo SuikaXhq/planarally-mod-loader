@@ -15,8 +15,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, "lib/main.ts"),
-            fileName: (format) => `pa-api.${format}.js`,
-            name: "pa-api",
+            fileName: (format) => `modders-kit.${format}.js`,
+            name: "modders-kit",
         },
     },
 });

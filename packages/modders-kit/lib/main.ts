@@ -167,5 +167,3 @@ export interface GameApi {
     ) => Promise<DataBlock<D>>;
     getDataBlock: <D extends DBR>(repr: DbRepr) => DataBlock<D> | undefined;
 }
-
-export function haha(): void {}
